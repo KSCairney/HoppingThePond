@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hopping The Pond</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+		<script>
+    	$(document).ready(function(){
+			$(".kens2, .kyotoA, .emilys2, .belgA, .kyotoA, .wallA, .firenzeA").hover(function(){
+       			$(this).css("box-shadow", "0 4px 8px 0 #0059b3, 0 6px 20px 0 #0059b3");
+        		}, function(){
+        		$(this).css("box-shadow", "0 4px 8px 0 #464647, 0 6px 20px 0 #464647");
+    		});
+			$("#home, #places").hover(function(){
+				$(this).css("text-shadow", "0 0 2px #0059b3");
+				}, function(){
+				$(this).css("text-shadow", "0 0 0px #000000");
+			});
+		});
+        </script>
+	</head>
+	<body>
+        <h1>Hopping The Pond</h1>
+		<h5>The Travels of an American and a Brit.</h5>
+        <a href="index.html" id="home">Home</a>
+        <a href="Places.html" id="places">Places</a>
+		<br>
+        <aside>
+            <a href="florence.html">
+				<div class="firenzeA">
+					<img src="fire/fireSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>Florence</p>
+					</div>
+				</div>
+			</a>
+            <a href="greatWall1.html">
+				<div class="wallA">
+					<img src="wall/wallSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>The Great Wall, Part 1</p>
+					</div>
+				</div>
+			</a>
+            <a href="belgBeer.html">
+				<div class="belgA">
+					<img src="belg/belgSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>A Belgian Beer-cation</p>
+					</div>
+				</div>
+			</a>
+            <a href="Kyoto4.html">
+			    <div class="kyotoA">
+				    <img src="kyoto/kyotoN.jpg" id="polaroid">
+				    <div class="container">
+				    	<p>Four Seasons In Kyoto</p>
+				    </div>
+			    </div>
+            </a>
+            <a href="profileKenny.html">
+			    <div class="kens2">
+				    <img src="ken/kenPolar.jpg" id="polaroid">
+				    <div class="container">
+					    <p>Profile: Kenny</p>
+				    </div>
+			    </div>
+            </a>
+            <a href="profileEmily.html">
+            <div class="emilys2">
+				<img src="em/emilyPolar.jpg" id="polaroid">
+				<div class="container">
+					<p>Profile: Emily</p>
+				</div>
+			</div>
+            </a>
+		</aside>
+		<article class="usArticle">
+			<div class="post">
+				<img src="aboutUs.jpg" id="CoverPhoto">
+				<div class="title">About Us.</div>
+			</div>
+			<br>
+			<p class="Text">We are Emily and Kenny. We met in London back in 2012 and have since lived in China, Japan and the USA. We have travelled as much as we can within the countries we have lived as well as in Poland, Germany, The Czech Republic, Italy, Ireland, South Korea, Scotland, Indonesia, Belgium and Hong Kong. This is our blog about our past travels, the gritty bits, the glorious bits and all the in-between bits. Travel is our passion and together our home is a stepping off point for continuing adventures.</p>
+		</article>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hopping The Pond</title>
+        <link rel='stylesheet' type='text/css' href='stylesheet.css'/>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
+		<script>
+    	$(document).ready(function(){
+			$(".kyotoN, .belgN, .wallN, .firenzeN").hide();
+			$("#JPN").click(function(){
+				$(".kyotoN").toggle();
+			});
+			$("#BLGM").click(function(){
+				$(".belgN").toggle();
+			});
+			$("#CHNA").click(function(){
+				$(".wallN").toggle();
+			});
+			$("#ITA").click(function(){
+				$(".firenzeN").toggle();
+			});
+			$(".kyotoN, .belgN, .wallN, .firenzeN").hover(function(){
+       			$(this).css("box-shadow", "0 4px 8px 0 #0059b3, 0 6px 20px 0 #0059b3");
+        		}, function(){
+        		$(this).css("box-shadow", "0 4px 8px 0 #464647, 0 6px 20px 0 #464647");
+    		});
+			$("#us, #home, #JPN, #BLGM, #CHNA, #ITA").hover(function(){
+				$(this).css("text-shadow", "0 0 2px #0059b3");
+				}, function(){
+				$(this).css("text-shadow", "0 0 0px #000000");
+			});
+		});
+        </script>
+	</head>
+	<body>
+        <h1>Hopping The Pond</h1>
+		<h5>The Travels of an American and a Brit.</h5>
+        <a href="index.html" id="home">Home</a>
+        <a href="AboutUs.html" id="us">About Us</a>
+		<br>
+		<br>
+		<br>
+		<div id="BLGM">Belgium</div>
+			<br>
+			<a href="belgBeer.html">
+				<div class="belgN">
+					<img src="belg/belgSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>A Belgian Beer-cation</p>
+					</div>
+				</div>
+			</a>
+			<br>
+			<div id="CHNA">China</div>
+			<br>
+			<a href="greatWall1.html">
+				<div class="wallN">
+					<img src="wall/wallSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>The Great Wall, Part 1</p>
+					</div>
+				</div>
+			</a>
+			<br>
+			<div id="ITA">Italy</div>
+			<br>
+			<a href="florence.html">
+				<div class="firenzeN">
+					<img src="fire/fireSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>Florence</p>
+					</div>
+				</div>
+			</a>
+			<br>
+		<div id="JPN">Japan</div>
+			<br>
+			<a href="Kyoto4.html">
+				<div class="kyotoN">
+					<img src="kyoto/kyotoN.jpg" id="polaroid">
+					<div class="container">
+						<p>Four Seasons in Kyoto</p>
+					</div>
+				</div>
+			</a>
+    </body>
+</html>
