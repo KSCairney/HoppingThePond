@@ -6,7 +6,7 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
 		<script>
     	$(document).ready(function(){
-			$(".kyotoN, .belgN, .wallN, .firenzeN").hide();
+			$(".kyotoN, .belgN, .wallN, .firenzeN, .pisaN").hide();
 			$("#JPN").click(function(){
 				$(".kyotoN").toggle();
 			});
@@ -17,9 +17,9 @@
 				$(".wallN").toggle();
 			});
 			$("#ITA").click(function(){
-				$(".firenzeN").toggle();
+				$(".firenzeN, .pisaN").toggle();
 			});
-			$(".kyotoN, .belgN, .wallN, .firenzeN").hover(function(){
+			$(".kyotoN, .belgN, .wallN, .firenzeN, .pisaN").hover(function(){
        			$(this).css("box-shadow", "0 4px 8px 0 #0059b3, 0 6px 20px 0 #0059b3");
         		}, function(){
         		$(this).css("box-shadow", "0 4px 8px 0 #464647, 0 6px 20px 0 #464647");
@@ -76,6 +76,14 @@
 					<img src="fire/fireSqr.jpg" id="polaroid">
 					<div class="container">
 						<p>Florence</p>
+					</div>
+				</div>
+			</a>
+			<a href="pisaTower.html">
+				<div class="pisaN">
+					<img src="pisa/pisaSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>Pisa</p>
 					</div>
 				</div>
 			</a>
