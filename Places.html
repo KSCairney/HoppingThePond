@@ -6,7 +6,7 @@
         <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js?ver=1.4.2'></script>
 		<script>
     	$(document).ready(function(){
-			$(".kyotoN, .belgN, .wallN, .firenzeN, .pisaN").hide();
+			$(".kyotoN, .belgN, .wallN, .firenzeN, .pisaN, .skelligN").hide();
 			$("#JPN").click(function(){
 				$(".kyotoN").toggle();
 			});
@@ -19,12 +19,15 @@
 			$("#ITA").click(function(){
 				$(".firenzeN, .pisaN").toggle();
 			});
-			$(".kyotoN, .belgN, .wallN, .firenzeN, .pisaN").hover(function(){
+			$("#EIRE").click(function(){
+				$(".skelligN").toggle();
+			});
+			$(".kyotoN, .belgN, .wallN, .firenzeN, .pisaN, .skelligN").hover(function(){
        			$(this).css("box-shadow", "0 4px 8px 0 #0059b3, 0 6px 20px 0 #0059b3");
         		}, function(){
         		$(this).css("box-shadow", "0 4px 8px 0 #464647, 0 6px 20px 0 #464647");
     		});
-			$("#us, #home, #JPN, #BLGM, #CHNA, #ITA").hover(function(){
+			$("#us, #home, #JPN, #BLGM, #CHNA, #ITA, #EIRE").hover(function(){
 				$(this).css("text-shadow", "0 0 2px #0059b3");
 				}, function(){
 				$(this).css("text-shadow", "0 0 0px #000000");
@@ -65,6 +68,17 @@
 					<img src="wall/wallSqr.jpg" id="polaroid">
 					<div class="container">
 						<p>The Great Wall, Part 1</p>
+					</div>
+				</div>
+			</a>
+			<br>
+			<div id="EIRE">Ireland</div>
+			<br>
+			<a href="Skellig.html">
+				<div class="skelligN">
+					<img src="skellig/skelligSqr.jpg" id="polaroid">
+					<div class="container">
+						<p>Climbing Skellig Michael</p>
 					</div>
 				</div>
 			</a>

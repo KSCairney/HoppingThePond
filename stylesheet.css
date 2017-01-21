@@ -141,6 +141,21 @@ h5 {
 	/*text-align: center;*/
 }
 
+#EIRE {
+	color: #004d99;
+	/*+81-47-353-8708*/
+	font-variant: small-caps;
+	cursor: pointer;
+	font-size: 25px;
+	font-family: Verdana;
+	font-weight: normal;
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-right: 20px;
+	padding-bottom: 15px;
+	/*text-align: center;*/
+}
+
 div.polaroid {
 	background-color: #f0f5f5;
 	box-shadow: 0 4px 8px 0 #464647, 0 6px 20px 0 #464647;
@@ -168,6 +183,19 @@ article{
 	margin-left: 360px;
 	color: #464647;
 	font-family: Verdana;
+}
+
+div.skelligA{
+	background-color: #f0f5f5;
+	box-shadow: 0 4px 8px 0 #464647, 0 6px 20px 0 #464647;
+	width: 300px;
+	height: 350px;
+	padding-bottom: 20px;
+	color: #464647;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-top: 15px
 }
 
 div.pisaA{
@@ -254,6 +282,20 @@ div.kyotoA {
 	height: 350px;
 	padding-bottom: 20px;
 	color: #464647;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	margin-left: 15px;
+	margin-top: 15px
+}
+
+div.skelligN {
+	background-color: #f0f5f5;
+	box-shadow: 0 4px 8px 0 #464647, 0 6px 20px 0 #464647;
+	width: 300px;
+	height: 350px;
+	padding-bottom: 20px;
+	color: #464647;
+	display: inline-block;
 	margin-right: 15px;
 	margin-bottom: 15px;
 	margin-left: 15px;
@@ -411,7 +453,8 @@ div.container {
 p.Text {
 	color: #000000;
 	font-family: verdana;
+	line-height: 150%;
 	display: inline-block;
-	width: 90%;
+	width: 80%;
 	text-align: justify;
 }
